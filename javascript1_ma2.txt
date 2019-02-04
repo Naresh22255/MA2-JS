@@ -1,0 +1,31 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+A function literal has four parts. 
+The first part is the reserved word function. 
+The second part is the function’s name. The function can use its name to
+call itself recursively.
+The third part is the set of parameters of the function, wrapped in parentheses. Within the parentheses is a set of zero or more parameter names, separated by commas.
+The fourth part is a set of statements wrapped in curly braces. These statements are the body of the function. They are executed when the function is invoked.
+
+2. What is the constructor?
+Constructors are used to construct the Objects. So in Javascript, constructors are used to construct objects from objects. It avoids the replication of the code and we can move the common functionalities to the prototype of the constructor/class.
+
+
+3. What does the return statement do?
+
+In JavaScript, return statements cease execution in a function and return a value to the caller;
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+The answer would be inside my function. 
+
+5. Briefly describe scope in JavaScript.
+
+
+Javascript uses scope chains to establish the scope for a given function. There is typically one global scope, and each function defined has its own nested scope. Any function defined within another function has a local scope which is linked to the outer function.
